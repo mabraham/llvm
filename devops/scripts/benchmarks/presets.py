@@ -12,8 +12,8 @@ presets: dict[str, list[str]] = {
     "Full": [
         "BenchDNN",
         "Compute Benchmarks",
-        # "Gromacs Bench",
-        # "llama.cpp bench",
+        "Gromacs Bench",
+        "llama.cpp bench",
         "SYCL-Bench",
         "Velocity Bench",
         "UMF",
