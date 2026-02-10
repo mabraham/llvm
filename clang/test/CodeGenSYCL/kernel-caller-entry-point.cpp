@@ -180,7 +180,11 @@ int main() {
 // CHECK-AMDGCN: #[[AMDGCN_ATTR0]] = { convergent mustprogress noinline norecurse nounwind optnone "no-trapping-math"="true" "stack-protector-buffer-size"="8" "sycl-optlevel"="0" }
 // CHECK-AMDGCN: #[[AMDGCN_ATTR1]] = { convergent nounwind }
 //
+<<<<<<< HEAD
 // CHECK-NVPTX: #[[NVPTX_ATTR0]] = { convergent mustprogress noinline norecurse nounwind optnone "no-trapping-math"="true" "stack-protector-buffer-size"="8" "sycl-optlevel"="0" "target-features"="+ptx32" }
+=======
+// CHECK-NVPTX: #[[NVPTX_ATTR0]] = { convergent mustprogress noinline norecurse nounwind optnone "no-trapping-math"="true" "stack-protector-buffer-size"="8" }
+>>>>>>> 9475f6af8188c9fb028c25f2143599f7fc3d2bac
 // CHECK-NVPTX: #[[NVPTX_ATTR1]] = { convergent nounwind }
 //
 // CHECK-SPIR: #[[SPIR_ATTR0]] = { convergent mustprogress noinline norecurse nounwind optnone "no-trapping-math"="true" "stack-protector-buffer-size"="8" "sycl-optlevel"="0" }
